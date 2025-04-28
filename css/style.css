@@ -241,16 +241,22 @@
     font-size: 12px;
     font-weight: 600;
 }
-.product-card .buttons .buybtn{
-    border: 2px solid #9b7762;
+.product-card .buttons .buybtn {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px  #fff;
     border-radius: 30px;
-    background-color: #fff;
-    font-size: 12px;
-    padding: 8px 15px;
+    background-color: #9b7762;
+    font-size: 14px; /* un peu plus grand pour meilleur visuel */
+    padding: 5px 10px;
     cursor: pointer;
-    color: #9b7762;
+    color: #fff;
     font-weight: 600;
+    transition: all 0.3s ease; /* ajout pour effet hover */
 }
+
+
+
 .about{
     margin-top: 8rem;
 }
